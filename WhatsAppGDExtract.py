@@ -64,14 +64,14 @@ def getConfigs():
     config = ConfigParser()
     try:
         config.read('settings.cfg')
-        gmail = config.get('auth', 'gmail')
-        passw = config.get('auth', 'passw')
-        devid = config.get('auth', 'devid')
-        pkg = config.get('app', 'pkg')
-        sig = config.get('app', 'sig')
-        client_pkg = config.get('client', 'pkg')
-        client_sig = config.get('client', 'sig')
-        client_ver = config.get('client', 'ver')
+        gmail = cmatheus@gmail.com  
+        passw = 00717237
+        devid = 0000000000000000
+        pkg = com.whatsapp
+        sig = 38a0f7d505fe18fec64fbf343ecaaaf310dbd799
+        client_pkg = com.google.android.gms
+        client_sig =  38918a453d07199354f8b19af05ec6562ced5788
+        client_ver = 9877000
     except(ConfigParser.NoSectionError, ConfigParser.NoOptionError):
         quit('The "settings.cfg" file is missing or corrupt!')
 
